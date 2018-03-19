@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>change postion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	html {
+        width: 100%;
+        height: 100%;
+      }
+    		#canvas{
+    		border: solid 1px red; 
+    		width: 100%;	
+       }
+   
+   		.container{
+        padding: 1rem;
+   			background-color: yellow;
+   			text-align: center;
+   			margin: 3rem;/*rem 	Relative to font-size of the root element*/
+   		}
+   		h1{color: blue}
+ 		
+	</style>
+</script>
+</head>
+
+<body >
+
+
+
+<div class="container"><h1>Fr@n|<0S</h1>
+<h4>Javascript Physics for developers</h4>
+<br>
+</div>
+
+
+<div class="container" >
+<h3>Example 1 </h3>
+<p>Change position</p>
+<canvas id="canvas" width="400" height="50"></canvas>
+<script src= "changeposition.js"></script>
+<button onclick="increasex()"  >Increase position</button>
+<button onclick="decreasex()">Decrease position</button>
+<br>
+<br>
+<p>Lets assume you could increase position in a constant way.   </p>
+<button onclick="constantv()"  >Constant change of position</button>
+<br>
+<br>
+<button onclick="stop()"  >Stop constant change of pos.</button>
+
+<p>So now we start getting the idea that the rate of change of distance with time is called  <span style="color:blue">Speed</span>.In the example above we change position(increse distance) of the ball by 2px .So for example if we increase the distance each second the speed of the object would be 2px/sec which is not the standard unit for speed .In order to use the standard unit which is m/sec we have to convert pixels into metres . </p></div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
