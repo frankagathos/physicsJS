@@ -5,13 +5,12 @@ var yb=23;
 var dx=2;
 var dy=2;
 var color = "blue";
-var counter=0;  
+ 
    
 function init (){
  ctx = canvas.getContext('2d');
 setInterval(onEachStep,1000/60); //(fps)
 addEventListener('click',Clicker);
-addEventListener('onkeydown',Clicker);	
 }
 
 
@@ -27,13 +26,15 @@ ctx.fill();
 };
 
 
-if (true) {}
-function Clicker(){
-	counter+=1;
-	if (counter=1){
-		color="black";
-	}; 
 
+function Clicker(){
+	
+
+
+		r=10;
+		color="black";
+
+		
 };
 
 
