@@ -31,7 +31,7 @@ function Clicker(){
 	
 
 
-		r=10;
+		r=5;
 		color="black";
 
 		
