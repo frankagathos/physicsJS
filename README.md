@@ -1,3 +1,3 @@
 # physicsJS
-#This is new project trying to connect your knowledge in physics with javascript
+#This project has 3 animated physics examples using jacascript
 #
