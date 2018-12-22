@@ -30,7 +30,7 @@ function onEachStep() {
 
 
   drawBall(); // draw the ball
-};
+}
  
 function drawBall() {
     with (context){
@@ -41,10 +41,10 @@ function drawBall() {
         closePath();
         fill();
     };
-};
+}
 function increasex(){
   x+=2;
-};
+}
 function decreasex(){
   x-=2;
   if (x-radius < 0  ){ 
@@ -52,11 +52,11 @@ function decreasex(){
     x=radius;
 
   }
-};
+}
 
 function constantv (){
   vx=2;
-};
+}
 function stop (){
   vx=0;
-};
+}
