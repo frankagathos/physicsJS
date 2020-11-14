@@ -3,47 +3,59 @@
 
 
 <head>
-	<title>change postion</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>change postion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
-<body >
+<body>
 
 
-<div class="container"><a href="index.html"><h1>JAVASCRIPT+PHYSICS</h1></a>
-<h4>Javascript Physics for developers</h4>
-<br>
-</div>
+  <div class="container"><a href="index.html">
+    <h1>Javascript physics examples </h1>
+    </a>
+    <h4>Javascript Physics for developers</h4>
+    <br>
+  </div>
 
 
-<div class="container" >
-<h3>Example 2</h3>
-<p>Change speed</p>
-<canvas id="canvas" width="400" height="50"></canvas>
-<script src= "changespeed.js"></script>
-<button onclick="increasev()">Increase speed</button>
-<button onclick="decreasev()">Decrease speed</button>
-<br>
-<br>
-<p>In the example above we have an object with constant speed.We increase the speed every time we press the first button.The rate of change of speed per unit time is the acceleration of the object.Accelerations are vector quantities (they have magnitude and direction) so the correct definition is that Acceleration is the rate of change of velocity of an object with respect to time.</p>
-<hr>
-<button onclick="stop()">Set speed to zero</button>
+  <div class="container">
+    <h3>Example 2</h3>
+    <p>Change speed</p>
+    <canvas id="canvas" width="400" height="50"></canvas>
+    <script src="changespeed.js"></script>
+    <button onclick="increasev()">Increase speed</button>
+    <button onclick="decreasev()">Decrease speed</button>
+    <br>
+    <br>
+    <p>In the example above we have an object with constant speed.We increase the speed every time we press the first
+      button.The rate of change of speed per unit time is the acceleration of the object.Accelerations are vector
+      quantities (they have magnitude and direction) so the correct definition is that Acceleration is the rate of
+      change of velocity of an object with respect to time.</p>
+    <hr>
+    <button onclick="stop()">Set speed to zero</button>
 
-<button onclick="constanta()">Set Constant acceleration</button>
+    <button onclick="constanta()">Set Constant acceleration</button>
 
-<button onclick="stopa()">Set acceleration to zero</button>
-<p>A Constant <span style="color:blue">acceleration</span> gives us a constant change of <span style="color:blue">Speed</span>.Note that:</p>
-<ul><li>if we give the object acceleration even when we eliminate its speed the object stops moving only temporarly.
-If we want to stop the movement completly we have to set both speed and acceleration to zero</li>
-<li>If the object has constant acceleration if we set acceleration to zero the object mantains its current speed.</li>
-<hr>
-TIP! Try experimenting with all the above buttons with different compinations.
+    <button onclick="stopa()">Set acceleration to zero</button>
+    <p>A Constant <span style="color:blue">acceleration</span> gives us a constant change of <span
+        style="color:blue">Speed</span>.Note that:</p>
+    <ul>
+      <li>if we give the object acceleration even when we eliminate its speed the object stops moving only temporarly.
+        If we want to stop the movement completly we have to set both speed and acceleration to zero</li>
+      <li>If the object has constant acceleration if we set acceleration to zero the object mantains its current speed.
+      </li>
+      <hr>
+      TIP! Try experimenting with all the above buttons with different compinations.
 
 
-</div>
+  </div>
 </body>
 <footer>
-  Made by <a href="frankagathos.com">Frank Agathos</a> with the help of the book Physics for JavaScript Games, Animation, and Simulations
+  Made by <a href="frankagathos.com">Frank Agathos</a> with the help of the book Physics for JavaScript Games,
+  Animation, and Simulations
 </footer>
+
 </html>

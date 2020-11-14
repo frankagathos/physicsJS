@@ -4,18 +4,19 @@ html {
 }
 
 body {
-    background-color: #666;
+    background-color: #EBE9E9;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 #canvas {
     background-color: #000;
-    border: solid 1px red;
+    border: solid 1px #3581B8;
     width: 100%;
 }
 
 .container {
     padding: 1rem;
-    background-color: yellow;
+    background-color: #F3F8F2;
     text-align: center;
     margin: 3rem;
     /*rem 	Relative to font-size of the root element*/
@@ -50,5 +51,5 @@ a {
 }
 
 button {
-    background: lightgreen;
+    background: #3581B8;
 }

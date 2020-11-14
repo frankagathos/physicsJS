@@ -1,3 +1,4 @@
 # physicsJS
-#This project has 3 animated physics examples using javascript
-#
+
+Javascript and HTML Canvas physics examples. 
+
