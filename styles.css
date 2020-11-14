@@ -10,7 +10,6 @@ body {
 
 #canvas {
     background-color: #000;
-    border: solid 1px #3581B8;
     width: 100%;
 }
 
@@ -22,13 +21,7 @@ body {
     /*rem 	Relative to font-size of the root element*/
 }
 
-h1 {
-    color: blue
-}
-
 @media only screen and (max-width: 730px) {
-
-    /* For mobile phones: */
     h1 {
         font-size: 15px;
     }
@@ -36,20 +29,35 @@ h1 {
 
 @media only screen and (max-width: 400px) {
 
-    /* For mobile phones: */
     h1 {
         font-size: 10px;
     }
 }
+ol {
+    margin: 0;
+    padding: 0;
+}
 
-footer {
-    text-align: center;
+li {
+    display:inline-block;
+    margin-left: 10px; /* Adjust accordingly */
 }
 
 a {
+    color: #3581B8;
     text-decoration: none;
 }
 
 button {
+    margin:15px 0;
+    cursor:pointer;
+    padding:10px 35px;
     background: #3581B8;
+    border: 2px solid #3581B8;
+    border-radius: 15px;
+    color:#ffffff;
+}
+
+footer {
+    text-align: center;
 }
